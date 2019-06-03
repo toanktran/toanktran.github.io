@@ -1,43 +1,22 @@
-header{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  background-color: rgb(108, 219, 203);
+body {
+    margin: 20px;
+    border: 1px solid grey;
 }
 
-header h1{
-  font-size: 50px;
-}
-
-header p{
-  display: inline-block;
-  max-width: 500px;
-}
-
-nav{
-  background-color: rgb(247, 135, 85);
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: sticky;
+header {
+  background-image: url("images/blur-bottle-bright.jpg");
+  background-size: 1200px 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
   overflow: hidden;
 }
 
-.nav-li{
-  display: inline-block;
-}
-
-.nav-li a{
-  color: white;
-  display: block;
-  padding: 14px 16px;
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.nav-li a:hover{
-  background-color: #111;
-}
-
-.nav-active{
-  background-color: #111;
+  color: black;
 }
